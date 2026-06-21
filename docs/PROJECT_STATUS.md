@@ -8,7 +8,7 @@ Sprint 1 - Core Development
 
 ## Current Task
 
-Sprint 1-2 complete: execution warning cleanup and dashboard component split.
+Sprint 1-3 complete: shadcn/ui-ready shared UI layer added and applied.
 
 ## Progress
 
@@ -19,6 +19,7 @@ Sprint 1-2 complete: execution warning cleanup and dashboard component split.
 | Next.js web app | Done |
 | Dashboard shell | Done |
 | Component split | Done |
+| Shared UI layer | Done |
 | Supabase setup | Pending |
 | Auth | Pending |
 
@@ -35,11 +36,15 @@ Sprint 1-2 complete: execution warning cleanup and dashboard component split.
 - Added Supabase browser client helper
 - Fixed Next.js workspace tracing root warning
 - Split dashboard UI into reusable components
+- Added shadcn/ui-compatible `components.json`
+- Added shared `cn` utility
+- Added shared `Button`, `Card`, and `Input` UI components
+- Refactored dashboard components to use shared UI primitives
 
 ## Next
 
 - Pull latest changes locally
-- Run `pnpm dev` again
-- Verify the warning is gone or reduced
-- Add shared UI utilities
-- Prepare shadcn/ui structure
+- Run `pnpm install` because new dependencies were added
+- Run `pnpm dev`
+- Verify dashboard still renders
+- Start Sprint 1-4: Supabase Auth foundation
