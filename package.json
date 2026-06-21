@@ -1,0 +1,15 @@
+{
+  "name": "ai-career-os",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter @ai-career-os/web dev",
+    "build": "pnpm --filter @ai-career-os/web build",
+    "lint": "pnpm --filter @ai-career-os/web lint",
+    "typecheck": "pnpm --filter @ai-career-os/web typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
