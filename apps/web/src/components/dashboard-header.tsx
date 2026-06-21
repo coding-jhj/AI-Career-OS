@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export function DashboardHeader() {
   return (
     <header className="flex flex-col gap-4 border-b border-zinc-800 pb-8 lg:flex-row lg:items-end lg:justify-between">
@@ -8,9 +10,7 @@ export function DashboardHeader() {
           Manage your resume, portfolio, GitHub proof, job pipeline, and AI coaching from one operating system.
         </p>
       </div>
-      <button className="rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white hover:bg-blue-500">
-        Start career audit
-      </button>
+      <Button size="lg">Start career audit</Button>
     </header>
   );
 }
