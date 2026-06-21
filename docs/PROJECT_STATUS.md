@@ -8,18 +8,19 @@ Sprint 1 - Core Development
 
 ## Current Task
 
-Create the runnable project foundation.
+Sprint 1-2 complete: execution warning cleanup and dashboard component split.
 
 ## Progress
 
 | Area | Status |
 | --- | --- |
 | Sprint 0 Foundation | Done |
-| Repository setup | In progress |
-| Next.js web app | In progress |
+| Repository setup | Done |
+| Next.js web app | Done |
+| Dashboard shell | Done |
+| Component split | Done |
 | Supabase setup | Pending |
 | Auth | Pending |
-| Dashboard | Pending |
 
 ## Completed
 
@@ -28,9 +29,17 @@ Create the runnable project foundation.
 - Added pnpm workspace setup
 - Added root package configuration
 - Added repository gitignore
+- Added `apps/web` Next.js application foundation
+- Added Tailwind CSS configuration
+- Added base dashboard UI
+- Added Supabase browser client helper
+- Fixed Next.js workspace tracing root warning
+- Split dashboard UI into reusable components
 
 ## Next
 
-- Add `apps/web` Next.js application
-- Add Tailwind configuration
-- Add base dashboard UI
+- Pull latest changes locally
+- Run `pnpm dev` again
+- Verify the warning is gone or reduced
+- Add shared UI utilities
+- Prepare shadcn/ui structure
